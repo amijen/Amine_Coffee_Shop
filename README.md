@@ -2,3 +2,9 @@
 Welcome to Amine Coffee Shop. After landing in Paris in 2025, and as being addicted to coffee, I decided to launch my own project. My work is inspired by [M. Abdullah Tarek and M. Chibuzor Nwachukwu](https://github.com/abdullahtarek/coffee_shop_customer_service_chatbot/tree/main). **This project is still ongoing** and I will do further tests for potential improvements. My contribution involves prompt engineering techniques. I noticed a lack of generalization for responses. As a result, I upgraded the prompt to respond to different types of questions. This repository contains the dataset and python code to build a chatbot designed to enhance customer experiences in a coffee shop application. \
 The chatbot is responsible for responding user's questions that are only related to our coffee shop based on LLM techniques. This chatbot can assist with taking orders, answering detailed menu queries, and providing personalized product recommendations.
 # 🎯 Project Overview
+The goal of the project is to:
+* Block irrelevant or harmful questions using a Guard Agent for safe interactions.
+* Answer questions about menu items and our coffee shop based on **RAG system**.
+* Recommend personalized products based on market basket analysis recommendation engine.
+* Take client's order for specific product(s).
+# 🧠 Chatbot Agent Architecture
