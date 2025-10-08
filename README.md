@@ -19,10 +19,10 @@ In this project, we have 6 steps:
 5. **Details Agent (RAG System)**: Powered by a Retrieval-Augmented Generation (RAG) system, the Details Agent answers specific customer questions about the coffee shop, including product components, prices... It retrieves information from vector databases using Pinecone environment.
 6. **Recommendation Agent:** Using market basket recommendation engine technique, this agent helps the customer with its order. It can recommend him a new product or what to take with an ordered one.
 # 📂 Directory Structure
-├── Amine_Coffee_Shop
-│ ├── api/ # Chatbot API for agent-based system
-│ └── dataset # Dataset for training recommendation engine    
-│ └── products # Product data (names, prices, descriptions) 
-| └── build_vector_database.ipynb # Builds vector database for RAG model 
-| └── recommendation_engine_training.ipynb # Trains recommendation engine 
-└── README.md # You're here!
+├── Amine_Coffee_Shop \
+│ ├── api/ # Chatbot API for agent-based system \
+│ └── dataset # Dataset for training recommendation engine   \  
+│ └── products # Product data (names, prices, descriptions)  \
+| └── build_vector_database.ipynb # Builds vector database for RAG model  \
+| └── recommendation_engine_training.ipynb # Trains recommendation engine \
+└── README.md # You're here! \
