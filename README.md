@@ -17,4 +17,12 @@ In this project, we have 6 steps:
 3. **Input Classifier Agent:** This agent classify the needed agent to answer for user's qurstion into one of three categories: order agent, recommendation agent, or details agent. This step is developed using chain-of-thought (CoT).
 4. **Order Agent**: This agent is responsible for taking client's order. 
 5. **Details Agent (RAG System)**: Powered by a Retrieval-Augmented Generation (RAG) system, the Details Agent answers specific customer questions about the coffee shop, including product components, prices... It retrieves information from vector databases using Pinecone environment.
-6. **Recommendation Agent:** Using market basket recommendation engine technique, this agent helps the customer with its order. It can recommend him a new product or what to take with an ordered one. 
+6. **Recommendation Agent:** Using market basket recommendation engine technique, this agent helps the customer with its order. It can recommend him a new product or what to take with an ordered one.
+# 📂 Directory Structure
+├── Amine_Coffee_Shop
+│ ├── api/ # Chatbot API for agent-based system
+│ └── dataset # Dataset for training recommendation engine    
+│ └── products # Product data (names, prices, descriptions) 
+| └── build_vector_database.ipynb # Builds vector database for RAG model 
+| └── recommendation_engine_training.ipynb # Trains recommendation engine 
+└── README.md # You're here!
