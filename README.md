@@ -24,5 +24,5 @@ In this project, we have 6 steps:
 │ └── dataset # Dataset for training recommendation engine   
 │ └── products # Product data (names, prices, descriptions)  \
 | └── build_vector_database.ipynb # Builds vector database for RAG model  \
-| └── recommendation_engine_training.ipynb # Trains recommendation engine 
+| └── recommendation_engine_training.ipynb # Trains recommendation engine \
 └── README.md # You're here! \
