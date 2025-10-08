@@ -29,4 +29,4 @@ In this project, we have 6 steps:
 # Refrence Links
 * [M. Abdullah Tarek and M. Chibuzor Nwachukwu GitHub](https://github.com/abdullahtarek/coffee_shop_customer_service_chatbot/tree/main): Our project is inspired from their work.
 * [Pinecone](https://www.pinecone.io/)
-* [Hugging Face]([https://www.pinecone.io/](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)): Hugging Face Models - Repository for Llama LLms, a state-of-the-art NLP model used in our chatbot.
+* [Hugging Face](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct): Hugging Face Models - Repository for Llama LLms, a state-of-the-art NLP model used in our chatbot.
