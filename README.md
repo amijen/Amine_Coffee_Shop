@@ -11,9 +11,10 @@ The goal of the project is to:
 <img width="1286" height="682" alt="image" src="https://github.com/user-attachments/assets/b56449d4-525f-4efc-86b7-ac618b2fcfad" />
 
 🤖 Chatbot Reasoning
-In this project, we have ... parts: 
+In this project, we have 6 steps: 
 1. **User input:** here the client ask for something.
 2. **Guard Agent** It acts as a defense. It checks whether the question asked by the customer is relevant to the coffee shop or not. If it is an unsafe question, it blocks it and asks for a new question.
-3. **Input Classifier Agent:** This agent classify the needed agent to answer for user's qurstion into one of three categories: order agent, recommendation agent, or details agent.
+3. **Input Classifier Agent:** This agent classify the needed agent to answer for user's qurstion into one of three categories: order agent, recommendation agent, or details agent. This step is developed using chain-of-thought (CoT).
 4. **Order Agent**: This agent is responsible for taking client's order. 
 5. **Details Agent (RAG System)**: Powered by a Retrieval-Augmented Generation (RAG) system, the Details Agent answers specific customer questions about the coffee shop, including product components, prices... It retrieves information from vector databases using Pinecone environment.
+6. **Recommendation Agent:** Using market basket recommendation engine technique, this agent helps the customer with its order. It can recommend him a new product or what to take with an ordered one. 
