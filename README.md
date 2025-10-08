@@ -23,8 +23,8 @@ In this project, we have 6 steps:
 │ ├── api/ # Chatbot API for agent-based system \
 │ └── dataset # Dataset for training recommendation engine   
 │ └── products # Product data (names, prices, descriptions)  \
-| └── build_vector_database.ipynb # Builds vector database for RAG model  \
-| └── recommendation_engine_training.ipynb # Trains recommendation engine \
+|  └── build_vector_database.ipynb # Builds vector database for RAG model  \
+|  └── recommendation_engine_training.ipynb # Trains recommendation engine \
 └── README.md # You're here! \
 # Refrence Links
 * [M. Abdullah Tarek and M. Chibuzor Nwachukwu GitHub](https://github.com/abdullahtarek/coffee_shop_customer_service_chatbot/tree/main): Our project is inspired from their work.
