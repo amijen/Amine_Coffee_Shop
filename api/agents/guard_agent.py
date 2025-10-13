@@ -25,7 +25,8 @@ class GuardAgent():
         1. Ask questions about the coffee shop, like location, working hours, menu items and coffee shop related questions.
         2. Ask questions about menu items, they can ask for ingredients in an item..
         3. Make an order.
-        4. Ask for a recommendations of what to buy. 
+        4. Demand to calculate the price of his order.
+        5. Ask for a recommendations of what to buy. 
 
         The user is not allowed to:
         1. Ask questions about anything else other than our coffee shop. 
