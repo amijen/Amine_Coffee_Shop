@@ -4,6 +4,7 @@ from classification_agent import ClassificationAgent
 from details_agent import DetailsAgent
 from agent_protocole import AgentProtocol
 from recommendation_agent import RecommendationAgent
+from order_taking_agent import OrderTakingAgent
 import os 
 import pathlib 
 
@@ -17,7 +18,8 @@ def main():
             "Recommendation Agent": RecommendationAgent(
                 'recommendation_objects/apriori_recommendations.json',
                 'recommendation_objects/popularity_recommendation.csv'
-            )
+            ),
+            "Order Taking Agent": OrderTakingAgent()
         }
         messages = []
         test=True
@@ -55,3 +57,4 @@ def main():
 
 if __name__=="__main__":
         main()
+
