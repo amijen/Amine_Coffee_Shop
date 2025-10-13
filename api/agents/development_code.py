@@ -24,7 +24,6 @@ def main():
         messages = []
         test=True
         while test==True: 
-            test=False
             os.system("cls" if os.name == "nt" else "clear")
             print("\n Print Messages")
             for message in messages: 
@@ -57,4 +56,5 @@ def main():
 
 if __name__=="__main__":
         main()
+
 
