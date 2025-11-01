@@ -8,7 +8,7 @@ The goal of the project is to:
 * Recommend personalized products based on market basket analysis recommendation engine.
 * Take client's order for specific product(s).
 # 🧠 Chatbot Agent Architecture
-<img width="16622" height="3406" alt="chatbot " src="https://github.com/user-attachments/assets/65d689ed-7de2-48fb-ba72-369c33828350" />
+<img width="1147" height="672" alt="chatbot " src="https://github.com/user-attachments/assets/c0039a0d-f040-4591-8640-e281c49c0f0a" />
 
 🤖 Chatbot Reasoning
 In this project, we have 6 steps: 
